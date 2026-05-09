@@ -11,8 +11,8 @@ COPY run.py .
 COPY config.yaml .
 COPY data.csv .
 
-# Create output directory with permissions
-RUN mkdir -p /app/output && chmod 777 /app/output
+# Create output directory
+RUN mkdir -p /app/output
 
 # Set the entrypoint
 ENTRYPOINT ["python", "run.py", \
