@@ -1,0 +1,16 @@
+2026-05-09T08:26:44  INFO      ============================================================
+2026-05-09T08:26:44  INFO      Job starting
+2026-05-09T08:26:44  INFO        input   : data.csv
+2026-05-09T08:26:44  INFO        config  : config.yaml
+2026-05-09T08:26:44  INFO        output  : metrics.json
+2026-05-09T08:26:44  INFO        log-file: run.log
+2026-05-09T08:26:44  INFO      ============================================================
+2026-05-09T08:26:44  INFO      Config loaded — version=v1  seed=42  window=5
+2026-05-09T08:26:44  DEBUG     NumPy random seed set to 42
+2026-05-09T08:26:44  INFO      Dataset loaded — 10000 rows (dropped 0 invalid)
+2026-05-09T08:26:44  INFO      Rolling mean computed — window=5  warm-up rows excluded=4
+2026-05-09T08:26:44  INFO      Signal generated — valid rows=9996  signal=1 count=4918  signal=0 count=5078
+2026-05-09T08:26:44  INFO      Metrics — rows_processed=9996  signal_rate=0.4920  latency_ms=50
+2026-05-09T08:26:44  INFO      Metrics written to metrics.json
+2026-05-09T08:26:44  INFO      Job completed successfully
+2026-05-09T08:26:44  INFO      ============================================================
